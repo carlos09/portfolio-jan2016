@@ -293,6 +293,19 @@ footer ul.social-links li a:hover {
     margin-bottom: 25px;
   }
 }
+@media only screen and (max-width: 700px) {
+  .masonry .project {
+    background-color: transparent;
+    box-shadow: none;
+  }
+  .masonry .project img {
+    box-shadow: 2px 2px 4px 0 #ccc;
+    margin: 0 auto;
+  }
+  #contact h2 {
+    font-size: 75px;
+  }
+}
 @media only screen and (max-width: 480px) {
   .intro-header h1 {
     font-size: 56px;
