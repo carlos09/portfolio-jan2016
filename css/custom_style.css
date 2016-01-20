@@ -294,6 +294,9 @@ footer ul.social-links li a:hover {
   }
 }
 @media only screen and (max-width: 700px) {
+  h3.h3_home {
+    width: 100%;
+  }
   .masonry .project {
     background-color: transparent;
     box-shadow: none;
