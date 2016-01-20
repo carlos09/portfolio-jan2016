@@ -266,6 +266,7 @@ footer {
 
   .modal-footer {
     text-align: center;
+    border-top: none;
 
     a.btn.view {
       background-color: #ea3845;
@@ -274,8 +275,8 @@ footer {
       padding: 20px 50px;
 
       &:hover {
-        background-color: darken( #ea3845, 5%);
-        border-color: darken(#ea3845, 5%);
+        background-color: lighten( #ea3845, 5%);
+        border-color: lighten(#ea3845, 5%);
       }
     }
   }
@@ -334,6 +335,12 @@ footer {
   h3.h3_home {
     font-size: 24px;
   }
+
+  .modal-dialog {
+    .col-sm-5 {
+      margin-top: 0;
+    }
+  }
 }
 
 @media only screen and (max-width: 768px) {
@@ -360,7 +367,7 @@ footer {
 
         .img-responsive {
           display: block;
-          margin-bottom: 25px;
+          margin: 0 auto 25px;
         }
       }
     }

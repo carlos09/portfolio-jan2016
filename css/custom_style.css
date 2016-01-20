@@ -211,6 +211,7 @@ footer ul.social-links li a:hover {
 }
 .modal-dialog .modal-footer {
   text-align: center;
+  border-top: none;
 }
 .modal-dialog .modal-footer a.btn.view {
   background-color: #ea3845;
@@ -219,8 +220,8 @@ footer ul.social-links li a:hover {
   padding: 20px 50px;
 }
 .modal-dialog .modal-footer a.btn.view:hover {
-  background-color: #e8212f;
-  border-color: #e8212f;
+  background-color: #ec4f5b;
+  border-color: #ec4f5b;
 }
 .navbar-default .navbar-toggle:hover:before,
 .navbar-default .navbar-toggle:focus:before {
@@ -267,6 +268,9 @@ footer ul.social-links li a:hover {
   h3.h3_home {
     font-size: 24px;
   }
+  .modal-dialog .col-sm-5 {
+    margin-top: 0;
+  }
 }
 @media only screen and (max-width: 768px) {
   h3.h3_home {
@@ -290,7 +294,7 @@ footer ul.social-links li a:hover {
   }
   .modal-dialog .modal-body .col-sm-5 .img-responsive {
     display: block;
-    margin-bottom: 25px;
+    margin: 0 auto 25px;
   }
 }
 @media only screen and (max-width: 700px) {
