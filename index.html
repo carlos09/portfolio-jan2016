@@ -232,11 +232,14 @@
 				<h2>Drop me a line.</h2>
 			</div>
 
-			<form role="form" action="mail.php" method="POST" >
+			<form action="http://formmail.dreamhost.com/cgi-bin/formmail.cgi" method="POST">
+        <input type=hidden name="recipient" value="carlos.esquer927@gmail.com">
+        <input type=hidden name="subject" value="New contact form message">
+
 				<div class="col-md-8 col-md-offset-2">
 					<div class="form-group">
 						<div class="input-group">
-							<input type="text" class="form-control" name="name" id="InputName" placeholder="Your Name" required>
+							<input type="text" class="form-control" name="realname" id="InputName" placeholder="Your Name" required>
 							<span class="input-group-addon hidden"><i class="glyphicon glyphicon-ok form-control-feedback"></i></span>
 						</div>
 					</div>
